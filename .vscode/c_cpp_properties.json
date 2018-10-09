@@ -1,0 +1,20 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/ramin/catkin_ws_example/devel/include",
+        "/opt/ros/indigo/include",
+        "/home/ramin/catkin_ws_example/src/example_package1/include",
+        "/home/ramin/catkin_ws_example/src/example_package2/include",
+        "/home/ramin/catkin_ws_example/src/universal_robot/ur_kinematics/include",
+        "/home/ramin/catkin_ws_example/src/ur_modern_driver/include",
+        "/usr/include"
+      ],
+      "name": "Linux"
+    }
+  ]
+}

@@ -24,10 +24,10 @@ class example_node():
         # Start listener:
         self.listener = tf.TransformListener()
 
-        # Subscribe to robot  (/calibrated_fts_wrench)
+        # Register the subscribtion to the topic
         rospy.Subscriber("/joint_states", JointState, self.cb1)
         
-        # Publish to robot
+        # Register the Publisher to the topic 
         self.urScriptPub = rospy.Publisher("/ur_driver/URScript", String, queue_size=1)
 
         # Go into spin, with rateOption!
